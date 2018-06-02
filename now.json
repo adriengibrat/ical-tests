@@ -1,0 +1,6 @@
+{
+    "env": {
+      "GMAIL_USER": "adrien.gibrat@gmail.com",
+      "GMAIL_PASSWORD": "@ical-tests-app-gmail-password"
+    }
+}

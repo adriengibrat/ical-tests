@@ -1,0 +1,20 @@
+{
+  "name": "ical-tests",
+  "version": "0.0.1",
+  "description": "Testing ical updates from various email calendar clients",
+  "author": "Adrien Gibrat <adrien.gibrat@gmail.com>",
+  "scripts": {
+    "start": "micro",
+    "test": "NOW_URL=http://localhost:3000 GMAIL_USER=adrien.gibrat@gmail.com GMAIL_PASSWORD=XXXXX micro",
+    "deploy": "now"
+  },
+  "dependencies": {
+    "ical-generator": "^0.2.10",
+    "micro": "^9.3.0",
+    "microrouter": "^3.1.2",
+    "nodemailer": "^4.6.5"
+  },
+  "devDependencies": {
+    "now": "^11.1.7"
+  }
+}
