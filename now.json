@@ -1,6 +1,6 @@
 {
     "env": {
-      "GMAIL_USER": "adrien.gibrat@gmail.com",
-      "GMAIL_PASSWORD": "@ical-tests-app-gmail-password"
+      "SENDGRID_USERNAME": "apikey",
+      "SENDGRID_PASSWORD": "@ical-tests-sendgrid-api-key"
     }
 }
